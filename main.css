@@ -128,6 +128,11 @@ h1 {
   color: var(--BODY);
 }
 
+.profile-details__city {
+  font: var(--BODY-TEXT);
+  color: var(--BODY);
+}
+
 /* || LINE */
 .divider {
   width: 326px;
@@ -154,4 +159,33 @@ h1 {
 .stats__category p {
   font: var(--LABEL);
   letter-spacing: var(--LABEL-TS);
+}
+
+/* Desktop */
+@media screen and (min-width: 720px) {
+  /* || CARD */
+  .main__card {
+    width: 350px;
+  }
+
+  .main__card__cover-profile {
+    width: 350px;
+  }
+
+  .cover-profile__avatar {
+    left: 127px;
+  }
+
+  .main__card__profile-details {
+    padding: 72px 107px 25px 108px;
+  }
+
+  .divider {
+    width: 350px;
+  }
+
+  .main__card__stats {
+    gap: 50px;
+    padding: 0 54px 24px 47px;
+  }
 }
