@@ -59,11 +59,6 @@ body {
   max-width: 100%;
   overflow: hidden;
   background-color: var(--BODY-BG);
-  /* background-image: url("./images/bg-pattern-top.svg"),
-    url("./images/bg-pattern-bottom.svg");
-  background-position: -410px -355px, 165.5px 356.5px;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 622px 622px, 622px 622px; */
   display: grid;
   place-content: center;
 }
@@ -84,6 +79,7 @@ h1 {
   height: 374px;
   border-radius: 15px;
   box-shadow: 0px 50px 100px -20px hsla(197, 85%, 20%, 0.5048);
+  margin: 147px 24px 146px 25px;
 }
 
 .main__card__cover-profile {
